@@ -1,0 +1,78 @@
+
+/* --------- Global Styling --------- */
+body {
+    background-color: #f1f3f6;
+    font-family: 'Segoe UI', sans-serif;
+    color: #212121;
+    margin: 0;
+}
+
+/* --------- Header Styling --------- */
+h1, h2, h3 {
+    text-align: center;
+    color: #ff5733;
+    font-weight: 700;
+    margin-top: 10px;
+    animation: fadeSlideDown 1s ease;
+}
+
+@keyframes fadeSlideDown {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* --------- Styled Content Boxes --------- */
+.styled-box {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 25px;
+    margin: 20px 0;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.styled-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+/* --------- Table Styling --------- */
+thead {
+    background-color: #ff5733 !important;
+    color: white !important;
+    font-weight: bold;
+}
+
+tbody tr:hover {
+    background-color: #fcebe6 !important;
+}
+
+/* --------- Sidebar Enhancements --------- */
+.css-1d391kg, .css-1cpxqw2 {
+    background-color: #ffffff !important;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* --------- Image Styling --------- */
+img {
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    animation: fadeIn 1.2s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* --------- Plotly / Graph Box Styling --------- */
+.plot-container {
+    border-radius: 10px;
+    padding: 10px;
+    background: #ffffff;
+    margin: 20px 0;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+}
